@@ -1,0 +1,7 @@
+.iconChevron {
+  transition: ease-in-out transform 0.5s;
+}
+
+.iconChevron[data-open="false"] {
+  transform: rotate(180deg);
+}
